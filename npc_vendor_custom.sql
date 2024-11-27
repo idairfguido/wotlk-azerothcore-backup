@@ -3,7 +3,7 @@ SET
 @Entry 		:= 9500000,
 @Model 		:= 22968, -- Draenei Paladin with T6
 @Name 		:= "Edmond",
-@Title 		:= "Crafting Sets Vendor",
+@Title 		:= "EVO-BR Quartermaster",
 @Icon 		:= "Buy",
 @GossipMenu := 0,
 @MinLevel 	:= 80,
