@@ -5,7 +5,7 @@ SET
 @Name 		:= "Edmond",
 @Title 		:= "EVO-BR Quartermaster",
 @Icon 		:= "Buy",
-@GossipMenu := 0,
+@GossipMenu	:= 0,
 @MinLevel 	:= 80,
 @MaxLevel 	:= 80,
 @Faction 	:= 35,
@@ -13,7 +13,7 @@ SET
 @Scale		:= 1.0,
 @Type 		:= 7,
 @TypeFlags 	:= 0,
-@FlagsExtra := 2,
+@FlagsExtra	:= 2,
 @AIName		:= "",
 @Script 	:= "";
 
