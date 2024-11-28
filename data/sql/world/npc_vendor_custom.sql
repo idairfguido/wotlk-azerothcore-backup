@@ -99,3 +99,23 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 43975, 0, 0, 0, 0); -- Overcast Headguard
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 43972, 0, 0, 0, 0); -- Overcast Leggings
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 43973, 0, 0, 0, 0); -- Overcast Spaulders
+-- Weapons and Shields
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 41117, 0, 0, 0, 0); -- Saronite Protector -- Shield
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 41113, 0, 0, 0, 0); -- Saronite Bulwark -- Shield
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36624, 0, 0, 0, 0); -- Shrieking Bow -- Bow
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36638, 0, 0, 0, 0); -- Bloody Crossbow -- Crossbow
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36652, 0, 0, 0, 0); -- Stocky Shotgun -- Gun
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36554, 0, 0, 0, 0); -- Cursed Staff -- Staff
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36582, 0, 0, 0, 0); -- Ice Pick	-- Axe
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36512, 0, 0, 0, 0); -- Onerous Mallet -- Two-Handed Mace
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36694, 0, 0, 0, 0); -- Beatific Mace -- Mace
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36526, 0, 0, 0, 0); -- Sleeted Longsword -- Sword
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36540, 0, 0, 0, 0); -- Petrified Sword -- Two-Handed Sword
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36568, 0, 0, 0, 0); -- Hollowed Bone Knuckles -- Fist Weapon
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36610, 0, 0, 0, 0); -- Plagued Pike -- Polearm
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36666, 0, 0, 0, 0); -- Polar Wand -- Wand	
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36680, 0, 0, 0, 0); -- Mystic Fang -- Main Hand Dagger	
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36484, 0, 0, 0, 0); -- Etched Dagger -- Dagger	
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36498, 0, 0, 0, 0); -- Nerubian Mace -- Mace	
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36596, 0, 0, 0, 0); -- Rupturing Axe -- Two-Handed Axe	
+INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36722, 0, 0, 0, 0); -- Pyramid Throwing Star -- Thrown
