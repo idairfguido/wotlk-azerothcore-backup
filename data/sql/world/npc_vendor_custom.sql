@@ -11,6 +11,7 @@ SET
 @Faction 	:= 35,
 @NPCFlag 	:= 4224,
 @Scale		:= 1.0,
+@UnitClass	:= 2; -- CLASS_PALADIN
 @Type 		:= 7,
 @TypeFlags 	:= 0,
 @FlagsExtra	:= 2,
@@ -19,7 +20,7 @@ SET
 
 -- NPC CREATURE
 DELETE FROM `creature_template` WHERE entry = @Entry;
-INSERT INTO `creature_template` (`entry`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `unit_class`, `unit_flags`, `type`, `type_flags`, `RegenHealth`, `flags_extra`, `AiName`, `ScriptName`) VALUES (@Entry, @Name, @Title, @Icon, @GossipMenu, @MinLevel, @MaxLevel, @Faction, @NPCFlag, 1, 1.14286, @Scale, 1, 2, @Type, @TypeFlags, 1, @FlagsExtra, @AIName, @Script);
+INSERT INTO `creature_template` (`entry`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `unit_class`, `unit_flags`, `type`, `type_flags`, `RegenHealth`, `flags_extra`, `AiName`, `ScriptName`) VALUES (@Entry, @Name, @Title, @Icon, @GossipMenu, @MinLevel, @MaxLevel, @Faction, @NPCFlag, 1, 1.14286, @Scale, @UnitClass, 2, @Type, @TypeFlags, 1, @FlagsExtra, @AIName, @Script);
 
 -- NPC MODEL
 DELETE FROM `creature_template_model` WHERE `CreatureID` = @Entry;
