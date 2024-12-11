@@ -119,3 +119,4 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36498, 0, 0, 0, 0); -- Nerubian Mace -- Mace	
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36596, 0, 0, 0, 0); -- Rupturing Axe -- Two-Handed Axe	
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES (@Entry, 0, 36722, 0, 0, 0, 0); -- Pyramid Throwing Star -- Thrown
+

@@ -51,3 +51,4 @@ INSERT INTO playercreateinfo_skills (playercreateinfo_skills.racemask, playercre
 INSERT INTO playercreateinfo_skills (playercreateinfo_skills.racemask, playercreateinfo_skills.classmask, playercreateinfo_skills.skill, playercreateinfo_skills.rank, playercreateinfo_skills.Comment) VALUES ( @TaurenID, @ShamanID, @MailSpellID, 0, @Mailnote);
 INSERT INTO playercreateinfo_skills (playercreateinfo_skills.racemask, playercreateinfo_skills.classmask, playercreateinfo_skills.skill, playercreateinfo_skills.rank, playercreateinfo_skills.Comment) VALUES ( @TrollID, @ShamanID, @MailSpellID, 0, @Mailnote);
 INSERT INTO playercreateinfo_skills (playercreateinfo_skills.racemask, playercreateinfo_skills.classmask, playercreateinfo_skills.skill, playercreateinfo_skills.rank, playercreateinfo_skills.Comment) VALUES ( @DraeneiID, @ShamanID, @MailSpellID, 0, @Mailnote);
+
