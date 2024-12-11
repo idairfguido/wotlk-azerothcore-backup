@@ -11,7 +11,7 @@ SET
 @Faction 	:= 35,
 @NPCFlag 	:= 4224,
 @Scale		:= 1.0,
-@UnitClass	:= 2; -- CLASS_PALADIN
+@UnitClass	:= 2, -- CLASS_PALADIN
 @Type 		:= 7,
 @TypeFlags 	:= 0,
 @FlagsExtra	:= 2,
