@@ -15,10 +15,10 @@ SET
 @RogueID		:= 4,
 @PriestID		:= 5,
 @ShamanID		:= 7,
-@MailSpellID	:= 8737,
-@PlateSpellID	:= 750,
+@MailSpellID	:= 413,
+@PlateSpellID	:= 293,
 @Mailnote	:= "Mail",
-@Platenote	:= "Plate";
+@Platenote	:= "Plate Mail";
 
 ## [1] Warrior Plate Mail
 INSERT INTO playercreateinfo_spell_custom (playercreateinfo_spell_custom.racemask, playercreateinfo_spell_custom.classmask, playercreateinfo_spell_custom.Spell, playercreateinfo_spell_custom.Note) VALUES ( @HumanID, @WarriorID, @PlateSpellID, @Platenote);
